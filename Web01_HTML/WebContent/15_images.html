@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Images</title>
+</head>
+<body>
+	<!-- 
+	 * img 속성
+	 - alt(alternate) : 이미지 설명
+	 - src(source) : 이미지 출처
+	 - title : 이미지 타이틀
+	 - style : 이미지 스타일
+	 - with, height : 이미지 사이즈
+
+	 * 파일 경로
+	 <img src="picture.jpg"> : 현재 페이지와 같은 폴더에 위치한 이미지 파일
+	 <img src="img/picture.jpg"> : 현재 폴더(프로젝트명)에 위치한 img 폴더에 있는 이미지 파일 
+	 <img src="/img/picture.jpg"> : 현재 페이지의 기본 루트에 위치한 img 폴더에 있는 이미지 파일
+	 <img src="../picture.jpg"> : 현재 페이지의 상위 폴더에 위치한 이미지 파일
+	 -->
+	 
+	 <!-- 프로젝트와 WebContent를 동일하게 생각하면 편함. -->
+	 <img alt="프랑스 파리" src="paris.jpg"><br> 
+	 <!-- 경로 : http://localhost:8080/Web01_HTML/paris.jpg -->
+	 
+	 <img alt="프랑스 파리" src="img/paris.jpg"><br>
+	 <!-- 경로 : http://localhost:8080/Web01_HTML/img/paris.jpg -->
+	 
+	 <img alt="프랑스 파리" src="/img/paris.jpg"><br>
+	 <!-- 경로 : http://localhost:8080/img/paris.jpg -->
+	 
+	 <img alt="프랑스 파리" src="../paris.jpg"><br>
+	 <!-- 경로 : http://localhost:8080/paris.jpg -->
+	 
+</body>
+</html>

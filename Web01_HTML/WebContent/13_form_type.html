@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form</title>
+</head>
+<body>
+	<h1>여러가지 form 요소들</h1>
+	<!-- 
+	 input은 컨턴츠를 가질 수 없는 태그
+	 input은 value 속성을 사용하여 컨턴츠 입력
+	-->
+	<form action="result.html" method="get">
+		<!-- rows는 행의 수(5행), cols는 열의 수(글자수) -->
+		<textarea rows="5" cols="100" name="contract"></textarea><br>
+		
+		<!-- radio는 name속성만 같게만들면 하나만 선택할 수 있음 -->
+		<input type="radio" name="gender" value="male">남자
+		<input type="radio" name="gender" value="female">여자<br>
+		<input type="checkbox" name="hobby" value="movie">영화
+		<input type="checkbox" name="hobby" value="music">음악
+		<input type="checkbox" name="hobby" value="webtoon">웹툰<br>
+		<select name="coffee">
+			<option>아메리카노</option>
+			<option>카페라떼</option>
+			<option>딸기스무디</option>
+		</select>
+		<br>
+		<input type="file" name="profile"><br>
+		
+		<input type="submit" value="제출">
+	</form>
+	
+</body>
+</html>

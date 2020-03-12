@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Label</title>
+</head>
+<body>
+	<h1>Form Label</h1>
+	<form action="result.html">
+		<!-- label의 for속성은 input tag의 id속성과 연계해서 사용한다. 해당 label과 input의 그룹형성. -->
+		<label for="name">이름</label>
+		<input id="name" type="text" name="name">
+		
+		<!-- checked속성은 radio에 선택되어있는 상태로 만들어줌. -->
+		<label for="gender_m">남자</label>
+		<input type="radio" name="gender" value="m" id="gender_m" checked>
+		<label for="gender_f">여자</label>
+		<input type="radio" name="gender" value="f" id="gender_f">
+	</form>
+
+</body>
+</html>
